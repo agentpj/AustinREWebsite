@@ -7,15 +7,9 @@
   --light: #f2f2f2;
 }
 
-/* .custom-navbar {
-  background-color: rgb(255, 255, 255);
-  padding: 0px;
-  font:black;
-} */
-
 .custom-navbar a {
   font-size: 1rem;
-  color: grey;
+  color: red;
   
 }
 
@@ -38,7 +32,7 @@ margin-left: 20px;
   /* background-color: var(--seablue); */
   /* color: var(--darkblue); */
   color: rgb(244, 77, 77);
-  background-color: #c3dfea;
+  background-color: #1298db;
   font-style: italic;
 }
 
@@ -51,8 +45,8 @@ margin-left: 20px;
 }
 
 #greatdivide {
-  height: 600px;
   width: 1200px;
+  height: 600px;;
   padding: 10px;
   margin-left: 60px;
 }
@@ -61,17 +55,25 @@ li {
   font-style: italic;
   font-size: 15px;
   margin-bottom: 10px;
-  color: grey;
+  color: #402e2e;
 }
+
 .custom-sidebar {
   padding-top: 10px;
   width: 275px;
-  background-color: #c3dfea;
+  background-color: lightsteelblue;
   margin-right: 10px;
 }
 
 #testimonials, #aboutMe {
-background-color: #c3dfea;
-padding: 40px;
+background-color: lightsteelblue;
+padding: 20px;
 font-style: italic;
+margin-top: 10px;
+}
+
+footer {
+  margin-left: 20px;
+  margin-right: 20px;
+  font-size:small;
 }
