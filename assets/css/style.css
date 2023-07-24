@@ -1,0 +1,77 @@
+/* Austin Real Estate Website Style file */
+:root {
+  --blue: #1298db;
+  --darkblue: rgba(21, 133, 189, 0.936);
+  --seablue: #f2f3ee;
+  --lightseablue: #c3dfea;
+  --light: #f2f2f2;
+}
+
+/* .custom-navbar {
+  background-color: rgb(255, 255, 255);
+  padding: 0px;
+  font:black;
+} */
+
+.custom-navbar a {
+  font-size: 1rem;
+  color: grey;
+  
+}
+
+.custom-navbar a:hover {
+  color: black;
+}
+
+.container-fluid {
+color: black;
+margin-left: 20px;
+}
+
+.custom-container {
+  margin-left: 30px;
+  margin-right:10px;
+  width: 100%;
+}
+
+.hero {
+  /* background-color: var(--seablue); */
+  /* color: var(--darkblue); */
+  color: rgb(244, 77, 77);
+  background-color: #c3dfea;
+  font-style: italic;
+}
+
+#mylogo{
+  height:75px;
+  width: auto;
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+#greatdivide {
+  height: 600px;
+  width: 1200px;
+  padding: 10px;
+  margin-left: 60px;
+}
+
+li {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 10px;
+  color: grey;
+}
+.custom-sidebar {
+  padding-top: 10px;
+  width: 275px;
+  background-color: #c3dfea;
+  margin-right: 10px;
+}
+
+#testimonials, #aboutMe {
+background-color: #c3dfea;
+padding: 40px;
+font-style: italic;
+}
